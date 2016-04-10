@@ -1,5 +1,5 @@
 # generator-dmndjango [![NPM version][npm-image]][npm-url]
-Yeoman generator for use in django projects at The Dallas Morning News. 
+Yeoman generator for use in django projects at _The Dallas Morning News_. 
 
 Creates a gulp-based staticapp for rendering scss, js and responsive image sets into the static files directory of a django app created using the [django-project-template](https://github.com/DallasMorningNews/django-project-template).
 
@@ -23,11 +23,11 @@ Then generate the app:
 $ yo dmndjango
 ```
 
-The generator will ask for the app name you used when creating your django app and for which module pattern you'd like to use, which will determine which subgenerator builds the app.
+The generator will ask for the app name you used when creating your django app and for which module pattern you'd like to use, which will determine which subgenerator builds the app. (Currently supports CommonJS.)
 
 ## Using the staticapp
 
-Simply run gulp in the `staticapp` while developing your django project. Any changes made to javascript and scss files will be automatically rendered into your apps local static file directoty (presumes structure `<your_app>/static/<your_app>/<js/css/img>`). 
+Simply run gulp in the `staticapp` directory while developing your django project. Any changes made to javascript and scss files will be automatically rendered into your apps local static file directoty (presumes structure `<your_app>/static/<your_app>/<js/css/img>`). 
 
 ```bash
 $ gulp
