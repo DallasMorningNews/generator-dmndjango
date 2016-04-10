@@ -46,7 +46,3 @@ MIT © [Jon McClure]()
 
 [npm-image]: https://badge.fury.io/js/generator-dmndjango.svg
 [npm-url]: https://npmjs.org/package/generator-dmndjango
-[travis-image]: https://travis-ci.org/DallasMorningNews/generator-dmndjango.svg?branch=master
-[travis-url]: https://travis-ci.org/DallasMorningNews/generator-dmndjango
-[daviddm-image]: https://david-dm.org/DallasMorningNews/generator-dmndjango.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/DallasMorningNews/generator-dmndjango
