@@ -1,7 +1,7 @@
 # generator-dmndjango [![NPM version][npm-image]][npm-url]
-> Yeoman generator for use in django projects at The Dallas Morning News. 
-> 
-> Creates a gulp-based staticapp for rendering scss, js and responsive image sets into the static files directory of a django app created using the [django-project-template](https://github.com/DallasMorningNews/django-project-template).
+Yeoman generator for use in django projects at The Dallas Morning News. 
+
+Creates a gulp-based staticapp for rendering scss, js and responsive image sets into the static files directory of a django app created using the [django-project-template](https://github.com/DallasMorningNews/django-project-template).
 
 ## Installation
 
