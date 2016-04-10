@@ -27,7 +27,7 @@ The generator will ask for the app name you used when creating your django app a
 
 ## Using the staticapp
 
-Simply run gulp in the `staticapp` directory while developing your django project. Any changes made to javascript and scss files will be automatically rendered into your apps local static file directoty (presumes structure `<your_app>/static/<your_app>/<js/css/img>`). 
+Simply run gulp in the `staticapp` directory while developing your django project. Any changes made to javascript and scss files will be automatically rendered into your app's local static file directory (presumes you're app's static directory is structured like this: `<your_app>/static/<your_app>/<js/css/img directory>`). 
 
 ```bash
 $ gulp
