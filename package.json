@@ -1,0 +1,26 @@
+{
+  "name": "generator-dmndjango",
+  "version": "0.0.0",
+  "description": "Yeoman generator for use in django projects at The Dallas Morning News.",
+  "homepage": "",
+  "author": {
+    "name": "Jon McClure",
+    "email": "jmcclure@dallasnews.com",
+    "url": "https://github.com/dallasmorningnews"
+  },
+  "files": [
+    "generators"
+  ],
+  "main": "generators/index.js",
+  "keywords": [
+    "yeoman",
+    "generator",
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "yeoman-generator": "^0.22.0"
+  },
+  "repository": "DallasMorningNews/generator-dmndjango",
+  "license": "MIT"
+}
