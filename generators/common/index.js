@@ -68,8 +68,8 @@ module.exports = yeoman.Base.extend({
 	// SRC
 	mkdirp('./src/img');
 	this.fs.copy(
-		this.templatePath('src/js/app.js'),
-		this.destinationPath('./src/js/app.js')
+		this.templatePath('src/js/main-app.js'),
+		this.destinationPath('./src/js/main-app.js')
 	);
 	this.fs.copy(
 		this.templatePath('src/scss/main.scss'),
