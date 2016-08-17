@@ -19,11 +19,14 @@ module.exports = yeoman.Base.extend({
         message: 'What module pattern would you like to use?',
         choices: [
           {
-            name: 'CommonJS',
+            name: 'CommonJS (Browserify)',
             value: 'common'
           },{
-            name: 'AMD',
+            name: 'AMD (under construction)',
             value: 'amd'
+          },{
+            name: 'ES6 (Browserify + React/Redux)',
+            value: 'es6'
           }
         ]
       }
@@ -37,14 +40,20 @@ module.exports = yeoman.Base.extend({
   },
 
   subgen: function () {
-    if(this.props.module == 'common'){
+    if(this.props.module === 'common'){
       this.composeWith('dmndjango:common', {
         options: {
           appName: this.props.appName
         }
       });
-    }else if(this.props.module == 'amd'){
+    }else if(this.props.module === 'amd'){
       this.composeWith('dmndjango:amd', {
+        options: {
+          appName: this.props.appName
+        }
+      });
+    }else if(this.props.module === 'es6'){
+      this.composeWith('dmndjango:es6', {
         options: {
           appName: this.props.appName
         }

@@ -1,6 +1,6 @@
 {
   "name": "generator-dmndjango",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Yeoman generator for use in django projects at The Dallas Morning News.",
   "homepage": "",
   "author": {
