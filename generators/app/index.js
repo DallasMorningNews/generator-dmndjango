@@ -11,7 +11,7 @@ module.exports = yeoman.Base.extend({
 
     var prompts = [{
         name:'appName',
-        message: 'What\'s your django app\'s name?'
+        message: 'What\'s your Django app\'s name?'
       },
       {
         type: 'list',
@@ -19,7 +19,7 @@ module.exports = yeoman.Base.extend({
         message: 'What module pattern would you like to use?',
         choices: [
           {
-            name: 'CommonJS (Browserify)',
+            name: 'CommonJS (Browserify + Backbone/Marionette)',
             value: 'common'
           },{
             name: 'AMD (under construction)',
