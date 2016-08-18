@@ -1,6 +1,6 @@
 {
   "name": "generator-dmndjango",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Yeoman generator to pair front-end frameworks like Backbone and React with Django apps at The Dallas Morning News.",
   "homepage": "",
   "author": {
