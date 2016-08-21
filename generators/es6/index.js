@@ -19,15 +19,6 @@ module.exports = yeoman.Base.extend({
   		this.destinationPath('./package.json'),
   		{ appName: this.options.appName }
   	);
-  	this.fs.copyTpl(
-  		this.templatePath('bower.json'),
-  		this.destinationPath('./bower.json'),
-  		{ appName: this.options.appName }
-  	);
-  	this.fs.copy(
-  		this.templatePath('.bowerrc'),
-  		this.destinationPath('./.bowerrc')
-  	);
     this.fs.copy(
   		this.templatePath('.eslintrc'),
   		this.destinationPath('./.eslintrc')
@@ -45,10 +36,6 @@ module.exports = yeoman.Base.extend({
   		this.templatePath('gulp/tasks/watch.js'),
   		this.destinationPath('./gulp/tasks/watch.js')
   	);
-  	this.fs.copy(
-  		this.templatePath('gulp/tasks/vendor.bundle.config.js'),
-  		this.destinationPath('./gulp/tasks/vendor.bundle.config.js')
-  	);
   	this.fs.copyTpl(
   		this.templatePath('gulp/tasks/browserify.js'),
   		this.destinationPath('./gulp/tasks/browserify.js'),
@@ -62,11 +49,6 @@ module.exports = yeoman.Base.extend({
   	this.fs.copyTpl(
   		this.templatePath('gulp/tasks/sass.js'),
   		this.destinationPath('./gulp/tasks/sass.js'),
-  		{ appName: this.options.appName }
-  	);
-  	this.fs.copyTpl(
-  		this.templatePath('gulp/tasks/vendor.js'),
-  		this.destinationPath('./gulp/tasks/vendor.js'),
   		{ appName: this.options.appName }
   	);
 

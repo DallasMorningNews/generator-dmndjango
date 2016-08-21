@@ -18,7 +18,7 @@ var gulpif = require('gulp-if');
 
 module.exports = function(done){
 
-  glob('./src/js/main-**.js', function(err, files) {
+  glob('./src/js/main-**.{js,jsx}', function(err, files) {
       if(err) done(err);
 
       var tasks = files.map(function(entry){

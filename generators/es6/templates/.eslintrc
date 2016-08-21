@@ -10,5 +10,10 @@
     "no-eval": 0,
     "react/jsx-no-bind": 0,
     "react/sort-comp": 0,
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
+  },
+  "env": {
+    "browser": true,
+    "node": true
   }
 }
