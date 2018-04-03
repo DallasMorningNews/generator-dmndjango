@@ -1,3 +1,5 @@
+### This is no longer maintained. DMN devs should use [`django-admnin startapp`](https://docs.djangoproject.com/en/2.0/ref/django-admin/#startapp) and add static file processing using our [`yo dmninteractives`](https://github.com/DallasMorningNews/generator-dmninteractives) generator.
+
 # generator-dmndjango [![NPM version][npm-image]][npm-url]
 
 Built for pairing [Django](https://www.djangoproject.com/) with client-side frameworks like [Backbone](http://backbonejs.org/) and [React](https://facebook.github.io/react/), this [Yeoman](http://yeoman.io/) generator creates a [gulp](http://gulpjs.com/) and [browserify](http://browserify.org/)-based staticapp for transpiling, bundling, and rendering scss, js and responsive image sets into the static files directory of a Django app. It is designed to work with our [django-project-template](https://github.com/DallasMorningNews/django-project-template), but can be used in any standard Django app.
